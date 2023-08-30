@@ -1,0 +1,10 @@
+Stuff to do after to make it better:
+1)write classes that aquire vulkan objects in
+thier constructor and release in destructor
+OR
+provide custom deleter to std unique/std shared ptr
+
+Basically, the tutorial uses c style manual memory 
+mamangement (malloc/free)
+pallocator lets you specify callbacks for a custom memory allocator
+pallocator = null for tutorial purposes, though.
